@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Información sobre Fujinas Rclone, integración personal de Google Drive con Nextcloud.">
+<title>Fujinas Rclone — Página principal</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#f5f8fc;color:#1d324c}
+*{box-sizing:border-box}body{margin:0;line-height:1.7}main{max-width:850px;margin:48px auto;padding:0 20px 60px}
+article{background:white;padding:clamp(22px,5vw,52px);border:1px solid #dfe7f2;border-radius:20px;box-shadow:0 8px 35px #1529420a}
+nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:22px}
+a{color:#225ec1}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.2;margin:0 0 15px}h2{font-size:1.3rem;margin-top:34px}
+p{margin:14px 0}.lead{color:#4e6077;font-size:1.13rem}.pill{display:inline-block;background:#ebf3ff;color:#215bb0;padding:5px 14px;border-radius:20px;font-weight:650}
+hr{border:0;border-top:1px solid #dfe7f2;margin:45px 0}code{overflow-wrap:anywhere}
+footer{color:#63758b;font-size:.9rem;text-align:center;margin-top:24px}
+</style>
+</head>
+<body>
+<main><nav><strong>Fujinas Rclone</strong><div><a href="#es">Español</a> · <a href="#en">English</a> · <a href="privacy.html">Privacidad / Privacy</a></div></nav>
+<article>
+<section id="es" lang="es">
+<h1>Fujinas Rclone</h1>
+<p class="lead">Conexión personal y de solo lectura entre Google Drive y un servidor doméstico Nextcloud mediante Rclone.</p>
+<p><span class="pill">Uso privado · No comercial</span></p>
+<h2>¿Para qué sirve?</h2>
+<p>Esta integración permite al propietario de la cuenta consultar sus archivos y carpetas de Google Drive desde su servidor Fujinas y visualizarlos a través de Nextcloud, sin copiar inicialmente todo el contenido al servidor.</p>
+<h2>Permiso solicitado</h2>
+<p>Utiliza el alcance OAuth <code>https://www.googleapis.com/auth/drive.readonly</code> para listar, consultar y descargar archivos cuando lo solicita el titular. Este permiso no permite modificar ni eliminar archivos de Google Drive.</p>
+<h2>Quién puede usarla</h2>
+<p>Es una herramienta personal operada por el titular de la cuenta y del servidor, sin registro público ni acceso para usuarios externos.</p>
+<h2>Control de la autorización</h2>
+<p>El titular puede retirar el permiso en <a href="https://myaccount.google.com/connections">las conexiones de su cuenta de Google</a>. Para saber cómo se usan los datos, consulta la <a href="privacy.html">política de privacidad</a>.</p>
+</section>
+<hr>
+<section id="en" lang="en">
+<h2>About Fujinas Rclone</h2>
+<p class="lead">A private, non-commercial, read-only connection between the owner's Google Drive account and a personal Nextcloud home server, using Rclone.</p>
+<p>The integration allows the owner to browse their Google Drive folders and files without initially duplicating all content. It requests <code>https://www.googleapis.com/auth/drive.readonly</code> only to list, read and download selected files. It cannot edit or delete files on Google Drive.</p>
+<p>No public sign-up or third-party access is offered. The owner can revoke authorization at <a href="https://myaccount.google.com/connections">Google Account connections</a>. See the <a href="privacy.html#en">privacy policy</a> for details.</p>
+</section>
+</article>
+<footer>Fujinas Rclone · <a href="privacy.html">Política de privacidad / Privacy policy</a></footer>
+</main>
+</body>
+</html>
